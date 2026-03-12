@@ -9,7 +9,7 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "<your subscription id here>"
+  subscription_id = "5ef9ed19-994b-47df-a101-dd36d2ca86e4"
 }
 
 terraform {
@@ -25,3 +25,4 @@ resource "azurerm_resource_group" "example" {
   name     = "RG2"
   location = "westeurope"
 }
+
